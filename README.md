@@ -4,6 +4,6 @@ The repository contains a preview of the Kendo UI Core NPM package usage.The Pac
 
 ## Usage
 
-Clone the repository. run `npm install`, followed by `npm start`. Open http://localhost:8080/.
+Clone the repository. run `npm install`, followed by `npm start`. Open [http://localhost:8080/](http://localhost:8080/).
 
 The example utilizes browserify for the build step. SystemJS and Webpack should also work as expected.
