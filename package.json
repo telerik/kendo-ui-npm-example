@@ -1,0 +1,21 @@
+{
+  "name": "kendo-npm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'watchify main.js -o bundle.js' 'http-server'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kendo-ui-core": "^2016.2.518"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "concurrently": "^2.1.0",
+    "http-server": "^0.9.0",
+    "watchify": "^3.7.0"
+  }
+}
