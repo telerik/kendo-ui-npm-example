@@ -1,0 +1,8 @@
+{
+  "name": "npm-ts-example",
+  "dependencies": {},
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "kendo-ui": "registry:dt/kendo-ui#2016.1.314+20160518063453"
+  }
+}
