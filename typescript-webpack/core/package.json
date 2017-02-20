@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@progress/kendo-ui": "^2017.1.216",
     "kendo-ui-core": "^2016.2.603"
   },
   "devDependencies": {
