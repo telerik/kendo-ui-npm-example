@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>WebPack, Kendo UI and AngularJS!</title>
+</head>
+
+<body>
+    <div id="example" ng-app="KendoDemos">
+        <div ng-controller="MyCtrl">
+            <h4>Select product</h4>
+            <select style="width:30%;" kendo-multi-select k-options="selectOptions" k-ng-model="selectedItems" k-value-primitive="false"></select>
+            <p ng-show="selectedItems.length" style="width:30%;">
+                <br />Selected items: {{ selectedItems }}
+            </p>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
